@@ -1131,6 +1131,10 @@
         line-height: 18px;
         padding:25px 0px 28px 0px;
     }
+    
+    .navigation-menu .menu{
+    display: none
+    }
 }
 
 
