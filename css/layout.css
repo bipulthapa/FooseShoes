@@ -1,3 +1,27 @@
+@font-face{
+    font-family: "Aller Bold";
+    src: url(../fonts/Aller_Bd.ttf);
+}
+
+@font-face{
+    font-family: "Aller Regular";
+    src: url(../fonts/Aller_Rg.ttf);
+}
+
+@font-face{
+    font-family: "Aller Light";
+    src: url(../fonts/Aller_Lt.ttf);
+}
+
+@font-face{
+    font-family: "Aller Itallic";
+    src: url(../fonts/Aller_It.ttf);
+}
+
+body{
+    font-family: "Aller Regular";
+}
+
 .clearfix {
     clear: both;
 }
@@ -106,8 +130,8 @@
 .navigation-menu ul li a{
     text-decoration: none;
     display: block;
-    color: #777777;
-    font-weight: bold;
+    color: #242424;
+    /* font-weight: bold; */
     font-size: 18px;
 }
 
@@ -390,7 +414,7 @@
     left: 10px;
     bottom: 0;
     background-color: #57c5a0;
-    line-height: 67px;
+    line-height: 57px;
     font-size: 13px;
     width: 22.6666%;
     color: #ffffff;
@@ -402,17 +426,18 @@
     right: 10px;
     top: 0px;
     background-color: #242424;
-    padding: 29px 8px;
+    padding: 28px 0px;
     color: #ffffff;
     line-height: 15px;
     font-size: 13px;
     width: 22.6666%;
+    font-family: 'Aller Bold';
 }
 
 .display-part a .out-stock{
     background-color: #f27e4b;
     font-size: 13px;
-    padding: 22px 12px;
+    padding: 21px 0px;
 }
 
 
@@ -436,6 +461,7 @@
 .info-box h2 a, .info-right-wrapper h2 a {
     text-decoration: none;
     color: #242424;
+    font-family: 'Aller Bold';
 }
 
 .info-box h2 a:hover, .info-right-wrapper h2 a:hover{
@@ -446,7 +472,6 @@
 .info-box p, .info-right-wrapper p{
     font-size: 11px;
     line-height: 20px;
-    font-weight: bold;
 }
 
 .info-box span{
@@ -460,7 +485,7 @@
 }
 
 .info-right-wrapper h3{
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .info-right-wrapper h3 a{
@@ -672,7 +697,6 @@
     color: #57c5a0;
 }
 
-
 /* Media Query for 768px */
 
 @media only screen and (min-width:768px){
@@ -829,7 +853,7 @@
     }
 
     .wrapper-image img{
-        width: 100%;
+        max-width: 100%;
     }
     .wrapper-image{
         float: left;
@@ -851,10 +875,6 @@
         float: right;
         width: 96%;
         margin-top: 4%;
-    }
-
-    .info-box span{
-        display: none;
     }
 
     .widget-title {
@@ -1308,7 +1328,7 @@
     }
 
     .twitter-widget .widget-tweet p{
-        margin-bottom: 14px;
+        margin-bottom: 12px;
     }
 
     .individual-wrapper{
@@ -1364,6 +1384,10 @@
         font-size: 13px;
         color: #bcbdb7;
         font-weight: bold;
+    }
+
+    .bottom-headerWrapper .innerWrapper .navigation-menu{
+        display: block;
     }
 }
 

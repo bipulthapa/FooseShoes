@@ -1,1 +1,1 @@
-calculateMargin = (number) => number*PICTURE_WIDTH;
+calculateMargin = (number,PICTURE_WIDTH) => number*PICTURE_WIDTH;
