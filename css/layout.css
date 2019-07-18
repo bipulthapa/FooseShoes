@@ -81,7 +81,7 @@ body{
     opacity: 0.7;
 }
 
-.login-register ul .orSpan{
+.login-register ul .orSection{
     color: #7e7e7e;
 }
 
@@ -139,11 +139,11 @@ body{
     color: #57C5A0;
 }
 
-.bottom-headerWrapper .innerWrapper .nav-icon{
+.bottom-headerWrapper .innerWrapper .navigation-right{
     display: none;
 }
 
-.nav-icon ul li span{
+.navigation-right ul li span{
     display: block;
 }
 
@@ -153,7 +153,6 @@ body{
 
 .advertWrapper .advertWrapper-photo .innerWrapper{
     padding: 0px 10px;
-
 }
 
 .advertWrapper .advertWrapper-photo .mainImage{
@@ -161,14 +160,14 @@ body{
     height: 280px;
 }
 
-.advertWrapper-photo .details{
+.advertWrapper-photo .advertWrapper-details{
     position: absolute;
     top: 5.1843%;
     right: 0;
     width: 63.8958%;
 }
 
-.details h3{
+.advertWrapper-details h3{
     display: inline-block;
     line-height: 50px;
     background: #57c5a0;
@@ -178,23 +177,23 @@ body{
 
 }
 
-.details h1{
+.advertWrapper-details h1{
     font-size: 22px;
     line-height: 20px;
     padding: 10px 0px;
     font-weight: normal;
 }
 
-.details h1 a{
+.advertWrapper-details h1 a{
     text-decoration: none;
     color: #242424;
 }
 
-.details h1 a:hover{
+.advertWrapper-details h1 a:hover{
     opacity: 0.5;
 }
 
-.details p{
+.advertWrapper-details p{
     font-size: 12px;
     padding-top: 0px;
     padding-bottom: 10px;
@@ -203,32 +202,32 @@ body{
     font-family: 'maven pro';
 }
 
-.details ul {
+.advertWrapper-details ul {
     padding: 0px;
     margin: 0px;
 }
 
-.details ul li{
+.advertWrapper-details ul li{
     list-style: none;
     float: left;
 }
 
-.details ul li:first-child{
+.advertWrapper-details ul li:first-child{
     background: #fafaf9;
 }
 
-.details ul li a{
+.advertWrapper-details ul li a{
     text-decoration: none;
     display: block;
     margin: 0px 2px;
     padding: 0px 12px;
 }
 
-.details ul li a:hover{
+.advertWrapper-details ul li a:hover{
     opacity: 0.5;
 }
 
-.details ul li img{
+.advertWrapper-details ul li img{
 
     width: 100%;
     line-height: 10px;
@@ -244,7 +243,7 @@ body{
     height: 10px;
 }
 
-.advertWrapper-photo .details ul li{
+.advertWrapper-photo .advertWrapper-details ul li{
     line-height: 30px;
     background-color: #ffffff;
     margin-right: 2px;
@@ -325,7 +324,7 @@ body{
     text-align: center;
 }
 
-.wrapper-image .info-tag{
+.wrapper-image .image-tag{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -341,35 +340,34 @@ body{
     background-color: #ebe7df;
 }
 
-.productDisplay{
+.product-display{
     background-color:#ebe7df;
     padding: 0px 10px;
 }
 
-.wrapper-image .info-tag:hover{
+.wrapper-image .image-tag:hover{
     background-color: rgb(0,0,0,0.5);
 }
 
-.productDisplay .title-part{
+.product-display .display-title{
     width: 100%;
     text-align: center;
 }
 
-.title-part h2{
+.display-title h2{
     font-size: 24px;
     color: #242424;
     line-height: 28px;
-    font-family: 'maverik pro';
-    font-weight: normal;
+    font-family: 'Aller Light';
 }
 
-.title-part .showAll{
+.display-title .showAll{
     margin: 10px 0px;
     border: 1px solid #bcb5a7;
     
 }
 
-.title-part .showAll a {
+.display-title .showAll a {
     text-decoration: none;
     display: block;
     padding: 9px 20px;
@@ -377,7 +375,7 @@ body{
     color: #bcb5a7;
 }
 
-.title-part .showAll a:hover{
+.display-title .showAll a:hover{
     color: #57c5a0;
 }
 
@@ -385,7 +383,7 @@ body{
     text-align: center;
 }
 
-.display-part .item-product{
+.display-part .display-item{
     position: relative;
     background-color: #ffffff;
     margin-bottom: 17px;
@@ -505,7 +503,7 @@ body{
     text-align: center;
 }
 
-.content-info{
+.blog-content{
     float: left;
     width: 80.4711%;
     padding: 0px 3px;
@@ -514,7 +512,7 @@ body{
 .date-icon h4{
     font-size: 14px;
     color: #ffffff;
-    font-weight: bold;
+    font-family: 'Aller Bold'
 }
 
 .widget-container{
@@ -755,16 +753,16 @@ body{
         transform: translate(0,0);
     }
     
-   .nav-icon ul li span{
+   .navigation-right ul li span{
        display: none;
     }
 
-    .details h1{
+    .advertWrapper-details h1{
         font-size: 36px;
         line-height: 30px;
     }
 
-    .details h3{
+    .advertWrapper-details h3{
         line-height: 67px;
     }
 
@@ -814,15 +812,15 @@ body{
         line-height: 28px;
     }
 
-    .advertWrapper-photo .details{
+    .advertWrapper-photo .advertWrapper-details{
         width: 45.8958%;
     }
 
-    .advertWrapper-photo .details ul li{
+    .advertWrapper-photo .advertWrapper-details ul li{
         line-height: 40px;
     }
 
-    .details p{
+    .advertWrapper-details p{
         font-size: 16px;
     }
 
@@ -972,6 +970,10 @@ body{
         background-position: 0 50%;
     }
 
+    .individual-content .blog-content{
+        padding: 0px 10px;
+    }
+
 }
 
 
@@ -1066,43 +1068,43 @@ body{
 
     }
     
-    .bottom-headerWrapper .innerWrapper .nav-icon{
+    .bottom-headerWrapper .innerWrapper .navigation-right{
         float: right;
         display: block;
     }
 
-    .nav-icon ul{
+    .navigation-right ul{
         padding: 0px;
         margin: 0px;
     }
 
-    .nav-icon li{
+    .navigation-right li{
         float: left;
         width: auto;
         list-style: none;
         border-right: 1px solid #cccccc;
     }
 
-    .nav-icon li:first-child{
+    .navigation-right li:first-child{
         border-left: 1px solid #cccccc;
     }
 
-    .nav-icon li:last-child{
+    .navigation-right li:last-child{
         border-right: 1px solid #cccccc;
     }
 
-    .nav-icon li a {
+    .navigation-right li a {
         display: block;
         text-decoration: none;
         padding: 0px 22px;
         color: #ffffff;
     }
 
-    .nav-icon li a:hover{
+    .navigation-right li a:hover{
         opacity: 0.7;
     }
 
-    .nav-icon .starImage{
+    .navigation-right .star-image{
         background-image: url(../images/star.png);
         background-repeat: no-repeat;
         background-position: 0px 22px;
@@ -1113,17 +1115,17 @@ body{
         padding: 35px 0px 0px 0px;
     }
 
-    .nav-icon .number{
+    .navigation-right .number{
         float: left;
         padding: 0px 4px;
         background-color: #adadad;
     }
 
-    .nav-icon active{
+    .navigation-right active{
         background-color: #57c5a0;
     }
 
-    .nav-icon .shoppingImage{
+    .navigation-right .shopping-image{
         background-image: url(../images/shopping.png);
         background-repeat: no-repeat;
         background-position: 0px 21.5px;
@@ -1134,7 +1136,7 @@ body{
         padding: 35px 4px 0px 4px;
     }
 
-    .nav-icon ul li a span.number{
+    .navigation-right ul li a span.number{
         background-color: #57c5a0;
         margin: 19px 8px;
         padding: 5px 6px; 
@@ -1142,7 +1144,7 @@ body{
         border-radius: 2px;
     }
 
-    .nav-icon ul li a span.active{
+    .navigation-right ul li a span.active{
         background-color: #adadad;
     }
 
@@ -1151,11 +1153,11 @@ body{
         height: 100%;
     }
 
-    .nav-icon ul li span{
+    .navigation-right ul li span{
         display: block;
      }
 
-     .advertWrapper-photo .details{
+     .advertWrapper-photo .advertWrapper-details{
         height: 40px;
         position: absolute;
         top: 13.1843%;
@@ -1171,7 +1173,7 @@ body{
         height: 100%;
     }
 
-    .advertWrapper-photo .details{
+    .advertWrapper-photo .advertWrapper-details{
         width: 27.8958%;
     }
 
@@ -1179,12 +1181,12 @@ body{
         padding: 17px 17px 26px 23px;
     }
 
-    .details h2{
+    .advertWrapper-details h2{
         font-size: 38px;
         line-height: 43px;
     }
 
-    .details p{
+    .advertWrapper-details p{
         font-size: 14px;
         line-height: 19px;
         font-family: 'maven pro'
@@ -1199,21 +1201,21 @@ body{
         padding-left: 20px;
     }
 
-    .productDisplay{
+    .product-display{
         padding: 0px;
     }
 
-    .productDisplay .title-part{
+    .product-display .display-title{
         text-align: left;
     }
 
-    .title-part h2{
+    .display-title h2{
         float: left;
         line-height: 87px;
 
     }
 
-    .title-part .showAll{
+    .display-title .showAll{
         float: right;
         margin: 28px 0px;
     }
@@ -1222,14 +1224,14 @@ body{
         padding: 0px;
     }
 
-    .display-part .item-product{
+    .display-part .display-item{
         float: left;
         width: 31.9148%;
         margin-left: 20px;
         margin-bottom: 0px;
     }
 
-    .display-part .item-product:first-child{
+    .display-part .display-item:first-child{
         margin-left:0px;
     }
 
@@ -1372,7 +1374,7 @@ body{
         padding:25px 0px 28px 0px;
     }
 
-    .info-right-wrapper .bolg-container{
+    .info-right-wrapper .blog-container{
         margin-bottom: 14px;
     }
 
@@ -1388,6 +1390,10 @@ body{
 
     .bottom-headerWrapper .innerWrapper .navigation-menu{
         display: block;
+    }
+
+    .blog-content{
+        padding: 0px 10px;
     }
 }
 
