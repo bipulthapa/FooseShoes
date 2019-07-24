@@ -30,7 +30,7 @@ body{
     clear: both; 
     content: "";
     display: table; 
-  }
+}
 
 .top-headerWrapper{
     background-color: #242424;
@@ -284,7 +284,7 @@ body{
 
 .advertWrapper-info .info-container ul li a span{
     font-size: 15px;
-    line-height: 28px;
+    /*line-height: 28px;*/
     color: #acacac;
     font-weight: bold;
 }
@@ -449,6 +449,14 @@ body{
     margin-bottom: 10px;
 }
 
+.info-box p a{
+    text-decoration: none;
+}
+
+.info-box p a:hover{
+    opacity: 0.7;
+}
+
 .info-box h2, .info-right-wrapper h2{
     font-size: 20px;
     font-family: 'maverik pro';
@@ -552,6 +560,7 @@ body{
     line-height: 18px;
     font-size: 13px;
     color: #a4a4a4;
+    text-align:justify;
 }
 
 .widget-tweet{
@@ -1248,7 +1257,7 @@ body{
     .info-content-section .info-right-wrapper{
         width: 42.4468%;
         float: right;
-        padding: 33px 44px 19px 17px;
+        padding: 33px 44px 22px 17px;
         margin: 25px 0px 23px 0px;
     }
 
